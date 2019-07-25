@@ -23,7 +23,7 @@ WebDriver driver=new FirefoxDriver();
 driver.get("https://www.facebook.com/");
 driver.manage().window().maximize();
 driver.findElement(By.xpath("//input[@id='email']")).sendKeys("lev@b.com");
-driver.findElement(By.xpath("//input[@id='pas']")).sendKeys("pass1");
+driver.findElement(By.xpath("//input[@id='pase']")).sendKeys("pass1");
 System.out.println(driver.getTitle());
 }
 
